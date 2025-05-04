@@ -1,0 +1,41 @@
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+.mvn/
+mvnw
+mvnw.cmd
+dependency-reduced-pom.xml
+
+# Node.js / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+
+# Docker
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Outros
+*.env
+*.bak
+*.tmp
+*.temp
