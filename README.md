@@ -1,4 +1,4 @@
-Furia Fan API
+Know Your Fan - Furia
 API e frontend para fãs da Furia criarem perfis, fazerem login e visualizarem um feed de usuários com nome, rede social e história com a organização. Usa Spring Boot com MongoDB no backend e React com TypeScript, Vite e Tailwind CSS no frontend.
 Tecnologias
 
@@ -16,10 +16,10 @@ Instalação
 
 Clone o repositório:
 git clone https://github.com/LucasMoreiraLana/know-your-fan-furia.git
-cd furia-fan-api
+cd know-your-fan-furia
 
 Backend:
-cd backend
+cd api
 docker-compose up -d
 mvn clean install
 mvn spring-boot:run
@@ -27,7 +27,6 @@ mvn spring-boot:run
 API em http://localhost:8080.
 
 Frontend:
-cd frontend
 npm install
 npm run dev
 

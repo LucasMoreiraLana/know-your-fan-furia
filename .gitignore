@@ -1,41 +1,24 @@
-# Java / Maven
-target/
-*.class
-*.jar
-*.war
-*.ear
-.mvn/
-mvnw
-mvnw.cmd
-dependency-reduced-pom.xml
-
-# Node.js / Frontend
-node_modules/
-dist/
-dist-ssr/
-*.local
-.vite/
-
-# Docker
+# Logs
+logs
 *.log
-*.pid
-*.seed
-*.pid.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# IDEs
-.idea/
-*.iml
-.vscode/
-*.swp
-*.swo
-*.swn
+node_modules
+dist
+dist-ssr
+*.local
 
-# Sistema operacional
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-Thumbs.db
-
-# Outros
-*.env
-*.bak
-*.tmp
-*.temp
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
