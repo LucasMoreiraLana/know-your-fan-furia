@@ -15,7 +15,7 @@ Git
 Instalação
 
 Clone o repositório:
-git clone https://github.com/seu-usuario/furia-fan-api.git
+git clone https://github.com/LucasMoreiraLana/know-your-fan-furia.git
 cd furia-fan-api
 
 Backend:
